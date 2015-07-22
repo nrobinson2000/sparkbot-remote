@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F4A59C4F1B5FE9FF0021E819 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A59C4E1B5FE9FF0021E819 /* AppDelegate.swift */; };
+		F4A59C511B5FE9FF0021E819 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A59C501B5FE9FF0021E819 /* ViewController.swift */; };
+		F4A59C541B5FE9FF0021E819 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4A59C521B5FE9FF0021E819 /* Main.storyboard */; };
+		F4A59C561B5FE9FF0021E819 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4A59C551B5FE9FF0021E819 /* Images.xcassets */; };
+		F4A59C591B5FE9FF0021E819 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4A59C571B5FE9FF0021E819 /* LaunchScreen.xib */; };
+		F4A59C651B5FE9FF0021E819 /* SparkBot_RemoteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A59C641B5FE9FF0021E819 /* SparkBot_RemoteTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F4A59C5F1B5FE9FF0021E819 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4A59C411B5FE9FF0021E819 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4A59C481B5FE9FF0021E819;
+			remoteInfo = "SparkBot Remote";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F4A59C491B5FE9FF0021E819 /* SparkBot Remote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SparkBot Remote.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4A59C4D1B5FE9FF0021E819 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4A59C4E1B5FE9FF0021E819 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F4A59C501B5FE9FF0021E819 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F4A59C531B5FE9FF0021E819 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F4A59C551B5FE9FF0021E819 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F4A59C581B5FE9FF0021E819 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F4A59C5E1B5FE9FF0021E819 /* SparkBot RemoteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SparkBot RemoteTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4A59C631B5FE9FF0021E819 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4A59C641B5FE9FF0021E819 /* SparkBot_RemoteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SparkBot_RemoteTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4A59C461B5FE9FF0021E819 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4A59C5B1B5FE9FF0021E819 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F4A59C401B5FE9FF0021E819 = {
+			isa = PBXGroup;
+			children = (
+				F4A59C4B1B5FE9FF0021E819 /* SparkBot Remote */,
+				F4A59C611B5FE9FF0021E819 /* SparkBot RemoteTests */,
+				F4A59C4A1B5FE9FF0021E819 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4A59C4A1B5FE9FF0021E819 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4A59C491B5FE9FF0021E819 /* SparkBot Remote.app */,
+				F4A59C5E1B5FE9FF0021E819 /* SparkBot RemoteTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4A59C4B1B5FE9FF0021E819 /* SparkBot Remote */ = {
+			isa = PBXGroup;
+			children = (
+				F4A59C4E1B5FE9FF0021E819 /* AppDelegate.swift */,
+				F4A59C501B5FE9FF0021E819 /* ViewController.swift */,
+				F4A59C521B5FE9FF0021E819 /* Main.storyboard */,
+				F4A59C551B5FE9FF0021E819 /* Images.xcassets */,
+				F4A59C571B5FE9FF0021E819 /* LaunchScreen.xib */,
+				F4A59C4C1B5FE9FF0021E819 /* Supporting Files */,
+			);
+			path = "SparkBot Remote";
+			sourceTree = "<group>";
+		};
+		F4A59C4C1B5FE9FF0021E819 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F4A59C4D1B5FE9FF0021E819 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F4A59C611B5FE9FF0021E819 /* SparkBot RemoteTests */ = {
+			isa = PBXGroup;
+			children = (
+				F4A59C641B5FE9FF0021E819 /* SparkBot_RemoteTests.swift */,
+				F4A59C621B5FE9FF0021E819 /* Supporting Files */,
+			);
+			path = "SparkBot RemoteTests";
+			sourceTree = "<group>";
+		};
+		F4A59C621B5FE9FF0021E819 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F4A59C631B5FE9FF0021E819 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4A59C481B5FE9FF0021E819 /* SparkBot Remote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4A59C681B5FE9FF0021E819 /* Build configuration list for PBXNativeTarget "SparkBot Remote" */;
+			buildPhases = (
+				F4A59C451B5FE9FF0021E819 /* Sources */,
+				F4A59C461B5FE9FF0021E819 /* Frameworks */,
+				F4A59C471B5FE9FF0021E819 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SparkBot Remote";
+			productName = "SparkBot Remote";
+			productReference = F4A59C491B5FE9FF0021E819 /* SparkBot Remote.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F4A59C5D1B5FE9FF0021E819 /* SparkBot RemoteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4A59C6B1B5FE9FF0021E819 /* Build configuration list for PBXNativeTarget "SparkBot RemoteTests" */;
+			buildPhases = (
+				F4A59C5A1B5FE9FF0021E819 /* Sources */,
+				F4A59C5B1B5FE9FF0021E819 /* Frameworks */,
+				F4A59C5C1B5FE9FF0021E819 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4A59C601B5FE9FF0021E819 /* PBXTargetDependency */,
+			);
+			name = "SparkBot RemoteTests";
+			productName = "SparkBot RemoteTests";
+			productReference = F4A59C5E1B5FE9FF0021E819 /* SparkBot RemoteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4A59C411B5FE9FF0021E819 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Nathan Robinson";
+				TargetAttributes = {
+					F4A59C481B5FE9FF0021E819 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					F4A59C5D1B5FE9FF0021E819 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = F4A59C481B5FE9FF0021E819;
+					};
+				};
+			};
+			buildConfigurationList = F4A59C441B5FE9FF0021E819 /* Build configuration list for PBXProject "SparkBot Remote" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F4A59C401B5FE9FF0021E819;
+			productRefGroup = F4A59C4A1B5FE9FF0021E819 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4A59C481B5FE9FF0021E819 /* SparkBot Remote */,
+				F4A59C5D1B5FE9FF0021E819 /* SparkBot RemoteTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4A59C471B5FE9FF0021E819 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4A59C541B5FE9FF0021E819 /* Main.storyboard in Resources */,
+				F4A59C591B5FE9FF0021E819 /* LaunchScreen.xib in Resources */,
+				F4A59C561B5FE9FF0021E819 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4A59C5C1B5FE9FF0021E819 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4A59C451B5FE9FF0021E819 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4A59C511B5FE9FF0021E819 /* ViewController.swift in Sources */,
+				F4A59C4F1B5FE9FF0021E819 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4A59C5A1B5FE9FF0021E819 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4A59C651B5FE9FF0021E819 /* SparkBot_RemoteTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F4A59C601B5FE9FF0021E819 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4A59C481B5FE9FF0021E819 /* SparkBot Remote */;
+			targetProxy = F4A59C5F1B5FE9FF0021E819 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F4A59C521B5FE9FF0021E819 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4A59C531B5FE9FF0021E819 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F4A59C571B5FE9FF0021E819 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4A59C581B5FE9FF0021E819 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F4A59C661B5FE9FF0021E819 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F4A59C671B5FE9FF0021E819 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4A59C691B5FE9FF0021E819 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "SparkBot Remote/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F4A59C6A1B5FE9FF0021E819 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "SparkBot Remote/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F4A59C6C1B5FE9FF0021E819 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SparkBot RemoteTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SparkBot Remote.app/SparkBot Remote";
+			};
+			name = Debug;
+		};
+		F4A59C6D1B5FE9FF0021E819 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SparkBot RemoteTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SparkBot Remote.app/SparkBot Remote";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4A59C441B5FE9FF0021E819 /* Build configuration list for PBXProject "SparkBot Remote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4A59C661B5FE9FF0021E819 /* Debug */,
+				F4A59C671B5FE9FF0021E819 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4A59C681B5FE9FF0021E819 /* Build configuration list for PBXNativeTarget "SparkBot Remote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4A59C691B5FE9FF0021E819 /* Debug */,
+				F4A59C6A1B5FE9FF0021E819 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F4A59C6B1B5FE9FF0021E819 /* Build configuration list for PBXNativeTarget "SparkBot RemoteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4A59C6C1B5FE9FF0021E819 /* Debug */,
+				F4A59C6D1B5FE9FF0021E819 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4A59C411B5FE9FF0021E819 /* Project object */;
+}
